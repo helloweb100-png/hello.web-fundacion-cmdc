@@ -1,0 +1,156 @@
+{
+  "_note": "Fuente de contenido: scraping de fundacion-cmdc.webnode.mx (7 páginas). Solo datos reales del cliente. Regenerar con: python build.py site.json --out .",
+  "lang": "es-MX",
+  "brand": {
+    "name": "Fundación CDMC",
+    "logo": "img/logo.png",
+    "show_name": true,
+    "colors": { "primary": "#e10410", "secondary": "#9c050a", "accent": "#ff6a3d" },
+    "theme": "mixed",
+    "font": "geometric",
+    "radius": "soft"
+  },
+  "seo": {
+    "title": "Cursos de Primeros Auxilios y Brigadas | Fundación CDMC",
+    "description": "33 años formando brigadas de protección civil. Cursos de primeros auxilios y combate contra incendios con constancia. Pide informes por WhatsApp.",
+    "keywords": ["fundación CDMC", "fundación CMDC", "curso de primeros auxilios", "combate contra incendios", "formación de brigadas", "brigadas de protección civil", "DC-3", "Stop the Bleed", "soporte vital básico", "servicios prehospitalarios", "capacitación para empresas México"],
+    "business_type": "NGO",
+    "area": "México"
+  },
+  "contact": {
+    "whatsapp": "5510446096",
+    "message": "Hola Fundación CDMC, quiero información sobre sus cursos y la formación de brigadas.",
+    "phone": "+52 55 1044 6096",
+    "email": "wildferretmma@gmail.com",
+    "float_label": "¿Dudas? Escríbenos"
+  },
+  "header_cta": { "label": "Quiero capacitarme", "href": "#contacto" },
+  "hero": {
+    "fx": "network",
+    "layout": "split",
+    "eyebrow": "33 años construyendo cultura de resiliencia",
+    "title": "Sé quien *salva una vida* mientras llega la ayuda",
+    "subtitle": "Cursos de primeros auxilios, combate contra incendios y formación de brigadas de protección civil, con teoría, práctica y constancias para actuar con seguridad.",
+    "cta": { "label": "Estoy listo para aprender", "href": "#contacto" },
+    "cta2": { "label": "Explorar los cursos", "href": "#cursos" },
+    "badges": ["33 años de trayectoria", "Brigadas en cualquier entidad", "Constancia Stop the Bleed"],
+    "chips": [
+      { "text": "Soporte Vital Básico", "icon": "heart" },
+      { "text": "Uso de extintores", "icon": "shield" },
+      { "text": "DC-3 a solicitar", "icon": "award" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "marquee",
+      "items": ["Primeros Auxilios", "Combate Contra Incendios", "Brigadas de Protección Civil", "Soporte Vital Básico", "Desfibrilador Externo Automático", "Constancia Stop the Bleed", "DC-3", "Cultura de la Resiliencia"]
+    },
+    {
+      "type": "about", "nav": "Nosotros", "id": "nosotros", "eyebrow": "Quiénes somos",
+      "title": "Una llamada al 911 puede ser *la diferencia entre la vida y la muerte*",
+      "text": [
+        "Somos una asociación dedicada a concientizar a las personas sobre la importancia de la atención oportuna a quien vive una emergencia médica.",
+        "Desde hace 33 años asumimos de forma profesional el compromiso con la sociedad civil de generar una cultura de la resiliencia. Nos especializamos en la formación de brigadas de protección civil en cualquier entidad federativa, apegándonos a los estándares y normativas de cada una."
+      ],
+      "points": ["Formación de brigadas en cualquier entidad federativa", "Apego a los estándares y normativas de cada estado", "Cursos con teoría, práctica y constancia"],
+      "image": { "src": "img/nosotros.jpg", "alt": "Paramédico atendiendo a un lesionado en la vía pública durante una emergencia" },
+      "badge": { "value": "33 años", "label": "de compromiso con la sociedad civil" },
+      "cta": { "label": "Quiero conocer más a la fundación", "href": "wa" }
+    },
+    {
+      "type": "services", "nav": "Servicios", "id": "servicios", "alt": true, "eyebrow": "Lo que hacemos",
+      "title": "Formación que prepara a tu gente *para actuar a tiempo*",
+      "lead": "Desde un curso para ti hasta la brigada completa de tu empresa, escuela o comunidad. Elige por dónde empezar.",
+      "link": "Quiero esta capacitación",
+      "items": [
+        { "icon": "users", "title": "Formación de Brigadas", "text": "Coordinamos los talentos individuales de tu equipo para que funcionen en conjunto ante una emergencia, cumpliendo la normativa de protección civil de tu entidad.", "list": ["Intervención preventiva y ante imprevistos", "Reducción de daños y protección de vidas"], "wide": true },
+        { "icon": "heart", "title": "Primeros Auxilios", "text": "Atención inmediata y básica a víctimas de accidentes antes de que llegue la asistencia médica profesional." },
+        { "icon": "shield", "title": "Combate Contra Incendios", "text": "Aprende a prevenir, detectar y actuar: teoría del fuego, uso de extintores, hidrantes y mangueras." },
+        { "icon": "clock", "title": "Servicios Prehospitalarios", "text": "Atención oportuna en el lugar de la emergencia. Cuéntanos tu evento o espacio y revisamos cómo apoyarte." },
+        { "icon": "award", "title": "Constancias y DC-3", "text": "Constancia de participación, constancia Stop the Bleed en primeros auxilios y DC-3 (a solicitar)." }
+      ]
+    },
+    {
+      "type": "html", "id": "brigadas", "nav": "Brigadas",
+      "html": "<section class=\"sec sec--brigadas\" id=\"brigadas\" data-tone=\"dark\" aria-labelledby=\"brigadas-title\"><div class=\"container\"><figure class=\"banner\" data-reveal=\"zoom\"><img data-parallax=\"0.07\" src=\"img/brigadas.jpg\" width=\"1600\" height=\"720\" loading=\"lazy\" alt=\"Grupo de brigadistas con chalecos reflectantes y una camilla durante una capacitación de la fundación\"><figcaption><span class=\"banner__dot\"></span>Formación de brigadas · Protección civil</figcaption></figure><div class=\"brig\"><div class=\"brig__copy\" data-reveal=\"left\"><span class=\"eyebrow\">Formación de Brigadas</span><h2 id=\"brigadas-title\">Hoy contar con personal calificado <em class=\"grad\">no es un lujo, es una necesidad</em></h2><p class=\"lead\">Formar una brigada es coordinar los talentos individuales y hacerlos funcionar en conjunto ante una emergencia. Son esenciales para la seguridad y la administración de riesgos: te dan el conocimiento para intervenir de forma preventiva o ante lo imprevisto, reduciendo daños y protegiendo vidas.</p><a class=\"btn btn--primary btn--lg\" href=\"#contacto\" data-service=\"Formación de Brigadas\" data-magnetic>Quiero formar mi brigada <svg class=\"ico\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></div><div class=\"pillars\" data-stagger><p class=\"pillars__t\">Nuestros estándares de calidad</p><ul><li class=\"pillar\" data-reveal><span>01</span><h3>Didáctica</h3><p>Formación enfocada en mejorar habilidades y técnicas.</p></li><li class=\"pillar\" data-reveal><span>02</span><h3>Formativo</h3><p>Métodos y recursos útiles para potenciar el rendimiento.</p></li><li class=\"pillar\" data-reveal><span>03</span><h3>Recursos</h3><p>Equipo y herramientas para el desarrollo del personal.</p></li><li class=\"pillar\" data-reveal><span>04</span><h3>Teoría</h3><p>Transmisión de conocimientos y conceptos clave.</p></li><li class=\"pillar\" data-reveal><span>05</span><h3>Práctica</h3><p>Aprendizaje a través de la experiencia directa.</p></li><li class=\"pillar\" data-reveal><span>06</span><h3>Estándares</h3><p>Programas de formación y desarrollo profesional.</p></li></ul></div></div></div></section>"
+    },
+    {
+      "type": "html", "id": "cursos", "nav": "Cursos",
+      "html": "<section class=\"sec\" id=\"cursos\" aria-labelledby=\"cursos-title\"><div class=\"container\"><div class=\"sec-head\" data-reveal><span class=\"eyebrow\">Catálogo de cursos</span><h2 id=\"cursos-title\">Aprende a actuar <em class=\"grad\">en los primeros minutos</em></h2><p class=\"lead\">Teoría clara, práctica real y constancia al terminar. Elige tu curso y da el primer paso hoy.</p></div><div class=\"courses\"><article class=\"course\" data-reveal><div class=\"course__media\"><img data-parallax=\"0.06\" src=\"img/primeros-auxilios-2.jpg\" width=\"1280\" height=\"1280\" loading=\"lazy\" alt=\"Instructores practicando reanimación cardiopulmonar con un desfibrilador externo automático sobre un maniquí\"><span class=\"course__tag\">Curso 01</span></div><div class=\"course__body\"><h3>Primeros Auxilios</h3><p class=\"course__obj\">Conocimientos y habilidades para brindar atención inmediata y básica a víctimas de accidentes, antes de que llegue la asistencia médica profesional.</p><h4>Temario</h4><ol class=\"temario\"><li>Introducción</li><li>Objetivo general del curso</li><li>Evaluación de una escena</li><li>Activación de los Servicios de Emergencia</li><li>Evaluación primaria del paciente</li><li>Soporte Vital Básico</li><li>Desfibrilador Externo Automático</li><li>Atención básica de hemorragia</li><li>Atención inicial a las quemaduras</li><li>Atención a fracturas y luxaciones</li></ol><h4>¿Qué aprenderás?</h4><ul class=\"ticks\"><li><svg class=\"ico\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg>Evaluar una emergencia para dar primeros auxilios de forma correcta y segura.</li><li><svg class=\"ico\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg>Tomar decisiones fundamentales en momentos críticos.</li><li><svg class=\"ico\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg>Actuar de manera rápida y efectiva ante una emergencia.</li></ul><h4>Certificados</h4><ul class=\"certs\"><li>Constancia Stop the Bleed</li><li>Constancia de participación</li><li>DC-3 (a solicitar)</li></ul><a class=\"btn btn--primary\" href=\"#contacto\" data-service=\"Primeros Auxilios\" data-magnetic>Quiero aprender primeros auxilios <svg class=\"ico\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></div></article><article class=\"course course--rev\" data-reveal><div class=\"course__media\"><img data-parallax=\"0.06\" src=\"img/incendios-2.jpg\" width=\"1160\" height=\"868\" loading=\"lazy\" alt=\"Brigadistas con casco y traje de bombero practicando el manejo de una manguera contra incendios\"><span class=\"course__tag\">Curso 02</span></div><div class=\"course__body\"><h3>Combate Contra Incendios</h3><p class=\"course__obj\">Conocimientos y habilidades para prevenir y actuar ante un incendio: prevención, detección y uso de equipos de extinción.</p><h4>Temario</h4><ol class=\"temario\"><li>Introducción</li><li>Objetivos del curso</li><li>Triángulo del fuego</li><li>Tetraedro del fuego</li><li>Selección de extintores</li><li>Partes de un extintor</li><li>Tipos de extintores</li><li>Cantidad y colocación de los extintores</li><li>Manejo y uso de extintores</li><li>Hidrantes y mangueras</li><li>Manejo de hidrantes y mangueras</li><li>Funciones de la brigada e identificación de alarmas</li></ol><h4>¿Qué aprenderás?</h4><ul class=\"ticks\"><li><svg class=\"ico\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg>Técnicas para prevenir, responder y reducir los riesgos de un incendio.</li><li><svg class=\"ico\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg>Uso adecuado de extintores y otros equipos.</li><li><svg class=\"ico\" aria-hidden=\"true\"><use href=\"#i-check\"/></svg>Teoría del fuego, clases de fuego, propagación del calor y métodos de extinción.</li></ul><h4>Certificados</h4><ul class=\"certs\"><li>Constancia de participación</li><li>DC-3 (a solicitar)</li></ul><a class=\"btn btn--primary\" href=\"#contacto\" data-service=\"Combate Contra Incendios\" data-magnetic>Quiero aprender a combatir incendios <svg class=\"ico\" aria-hidden=\"true\"><use href=\"#i-arrow\"/></svg></a></div></article></div></div></section>"
+    },
+    {
+      "type": "process", "id": "proceso", "alt": true, "eyebrow": "Cómo empezamos",
+      "title": "De tu mensaje a tu constancia *en 4 pasos*",
+      "lead": "Sin trámites complicados: nos escribes y armamos la capacitación que necesitas.",
+      "steps": [
+        { "title": "Nos escribes", "text": "Cuéntanos por WhatsApp si buscas un curso o formar una brigada." },
+        { "title": "Definimos tu programa", "text": "Elegimos el curso o el esquema de brigada según tu entidad y su normativa." },
+        { "title": "Aprendes haciendo", "text": "Teoría clara y práctica directa con el equipo y los recursos necesarios." },
+        { "title": "Recibes tu constancia", "text": "Constancia de participación, Stop the Bleed y DC-3 (a solicitar) según el curso." }
+      ]
+    },
+    {
+      "type": "stats",
+      "items": [
+        { "value": 33, "label": "Años formando cultura de resiliencia" },
+        { "value": 32, "label": "Entidades federativas donde formamos brigadas con su normativa" },
+        { "value": 911, "label": "La llamada que puede ser la diferencia entre la vida y la muerte" },
+        { "value": 3, "label": "Tipos de constancia: Stop the Bleed, participación y DC-3" }
+      ]
+    },
+    {
+      "type": "gallery", "nav": "", "id": "galeria", "eyebrow": "En acción",
+      "title": "Así se aprende *a salvar vidas*",
+      "lead": "Prácticas reales de nuestros cursos y brigadas.",
+      "images": [
+        { "src": "img/primeros-auxilios-2.jpg", "alt": "Práctica de reanimación cardiopulmonar con desfibrilador sobre un maniquí", "caption": "Primeros Auxilios" },
+        { "src": "img/incendios-2.jpg", "alt": "Brigadistas practicando con manguera contra incendios", "caption": "Combate Contra Incendios" },
+        { "src": "img/nosotros.jpg", "alt": "Atención a un lesionado en la vía pública por un paramédico", "caption": "Atención de emergencias" },
+        { "src": "img/brigadas.jpg", "alt": "Grupo de brigadistas con chalecos reflectantes y una camilla", "caption": "Formación de brigadas" },
+        { "src": "img/nosotros-2.webp", "alt": "Equipo de la fundación en una práctica de atención prehospitalaria", "caption": "Práctica de campo" }
+      ]
+    },
+    {
+      "type": "faq", "nav": "Preguntas", "id": "preguntas", "alt": true, "eyebrow": "Dudas frecuentes",
+      "title": "Resolvemos lo que *te estás preguntando*",
+      "items": [
+        { "q": "¿Qué curso me conviene: primeros auxilios o combate contra incendios?", "a": "Primeros Auxilios te prepara para atender a una persona lesionada hasta que llegue la ayuda médica. Combate Contra Incendios te enseña a prevenir, detectar y actuar ante el fuego. Si formas una brigada, lo ideal es combinarlos. Escríbenos y te orientamos." },
+        { "q": "¿Entregan constancia al terminar?", "a": "Sí. Ambos cursos entregan constancia de participación y se puede solicitar DC-3. El curso de Primeros Auxilios incluye además constancia Stop the Bleed." },
+        { "q": "¿Pueden formar la brigada de mi empresa o escuela en mi estado?", "a": "Sí. Nos especializamos en la formación de brigadas de protección civil en cualquier entidad federativa, apegándonos a los estándares y normativas de cada una." },
+        { "q": "¿Qué aprenderé en el curso de Primeros Auxilios?", "a": "A evaluar una escena, activar los servicios de emergencia, realizar la evaluación primaria, aplicar soporte vital básico, usar un desfibrilador externo automático y atender hemorragias, quemaduras, fracturas y luxaciones." },
+        { "q": "¿Cuánto cuesta y cuánto dura?", "a": "Depende del curso, del número de participantes y de si se trata de una brigada completa. Escríbenos por WhatsApp y te preparamos una propuesta a tu medida." }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Una acción oportuna puede salvar una vida. *Prepárate hoy.*",
+      "lead": "Escríbenos y te ayudamos a elegir el curso o la brigada ideal para ti, tu equipo o tu comunidad.",
+      "cta": { "label": "Sí, quiero mi lugar", "href": "wa" },
+      "cta2": { "label": "Ver los cursos", "href": "#cursos" }
+    },
+    {
+      "type": "contact", "nav": "Contacto", "eyebrow": "Hablemos",
+      "title": "Cuéntanos qué necesitas *y lo resolvemos contigo*",
+      "lead": "Déjanos tus datos y abrimos una conversación por WhatsApp con tu mensaje listo.",
+      "form": {
+        "title": "Pide tu información",
+        "button": "Quiero mis informes por WhatsApp",
+        "note": "Se abrirá WhatsApp con tu mensaje listo. Sin compromiso.",
+        "service_label": "¿Qué te interesa?",
+        "message_label": "Cuéntanos tu caso (opcional)"
+      }
+    }
+  ],
+  "footer": {
+    "text": "Salva un corazón. Cursos de primeros auxilios, combate contra incendios y formación de brigadas de protección civil en todo México.",
+    "links": [
+      { "label": "Cursos", "href": "#cursos" },
+      { "label": "Brigadas", "href": "#brigadas" },
+      { "label": "Contacto", "href": "#contacto" }
+    ],
+    "legal": "© Fundación Carlos David Mondragón Castillo"
+  },
+  "loader": { "text": "Fundación CDMC", "duration": 2200 },
+  "smooth_scroll": true,
+  "custom_css": "/* ===== Fundación CDMC · capa de marca ===== */\n.banner{position:relative;margin:0 0 clamp(3rem,7vw,5.5rem);border-radius:var(--r-xl);overflow:hidden;aspect-ratio:16/8;border:1px solid var(--border-strong);box-shadow:var(--shadow-lg)}\n.banner img{width:100%;height:124%;object-fit:cover;object-position:center 35%;filter:saturate(.9) contrast(1.05)}\n.banner::after{content:\"\";position:absolute;inset:0;background:linear-gradient(180deg,rgb(var(--bg-rgb)/.15) 30%,rgb(var(--bg-rgb)/.88) 100%),linear-gradient(100deg,rgb(var(--glow-rgb)/.28),transparent 55%);pointer-events:none}\n.banner figcaption{position:absolute;z-index:2;left:clamp(1rem,3vw,2rem);bottom:clamp(1rem,3vw,1.8rem);display:inline-flex;align-items:center;gap:.7rem;font:600 .8rem/1 var(--font-display);letter-spacing:.16em;text-transform:uppercase;color:var(--text)}\n.banner__dot{width:.6rem;height:.6rem;border-radius:50%;background:var(--glow);animation:dotPulse 1.8s ease-out infinite}\n.brig{display:grid;gap:clamp(2.2rem,5vw,4rem)}\n.brig__copy .lead{margin:1.2rem 0 2rem;max-width:34rem}\n.pillars__t{font:600 .78rem/1 var(--font-display);letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:1.2rem}\n.pillars ul{display:grid;gap:.9rem;grid-template-columns:1fr}\n.pillar{position:relative;padding:1.3rem 1.4rem 1.3rem 4.4rem;border-radius:var(--r-lg);background:var(--surface);border:1px solid var(--border);transition:border-color .5s,transform .6s var(--ease),box-shadow .6s var(--ease)}\n.pillar:hover{border-color:rgb(var(--glow-rgb)/.5);transform:translateY(-4px);box-shadow:var(--shadow-lg)}\n.pillar span{position:absolute;left:1.3rem;top:1.25rem;font:800 1.5rem/1 var(--font-display);letter-spacing:-.04em;background:linear-gradient(135deg,var(--primary-ink),var(--accent-ink));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}\n.pillar h3{font-size:1.08rem;margin-bottom:.25rem}\n.pillar p{color:var(--muted);font-size:.93rem;line-height:1.5}\n.courses{display:grid;gap:clamp(2rem,5vw,3.5rem)}\n.course{display:grid;border-radius:var(--r-xl);background:var(--surface);border:1px solid var(--border);overflow:hidden;box-shadow:var(--shadow-lg)}\n.course__media{position:relative;min-height:17rem;overflow:hidden;background:var(--bg-2)}\n.course__media img{position:absolute;inset:-12% 0;width:100%;height:124%;object-fit:cover;filter:saturate(.92) contrast(1.04)}\n.course__media::after{content:\"\";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgb(11 8 9/.55)),linear-gradient(120deg,rgb(var(--glow-rgb)/.22),transparent 60%);pointer-events:none}\n.course__tag{position:absolute;z-index:2;left:1.1rem;top:1.1rem;padding:.5rem .95rem;border-radius:99px;font:700 .72rem/1 var(--font-display);letter-spacing:.16em;text-transform:uppercase;color:#fff;background:rgb(11 8 9/.55);border:1px solid rgb(255 255 255/.25);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}\n.course__body{padding:clamp(1.5rem,4vw,3rem)}\n.course__body h3{font-size:clamp(1.6rem,2.4vw + .8rem,2.4rem);letter-spacing:-.03em;margin-bottom:.8rem}\n.course__obj{color:var(--muted);font-size:1.02rem;margin-bottom:1.6rem}\n.course__body h4{font:700 .74rem/1 var(--font-display);letter-spacing:.18em;text-transform:uppercase;color:var(--primary-ink);margin:1.6rem 0 .9rem}\n.temario{display:grid;gap:.55rem .9rem;counter-reset:t;grid-template-columns:1fr}\n.temario li{counter-increment:t;display:flex;align-items:center;gap:.75rem;padding:.6rem .85rem;border-radius:.8rem;background:var(--bg-2);border:1px solid var(--border);font-size:.92rem;line-height:1.35;transition:border-color .4s,transform .4s var(--ease)}\n.temario li::before{content:counter(t,decimal-leading-zero);flex:none;font:700 .74rem/1 var(--font-display);color:var(--primary-ink)}\n.temario li:hover{border-color:rgb(var(--glow-rgb)/.5);transform:translateX(4px)}\n.certs{display:flex;flex-wrap:wrap;gap:.6rem;margin-bottom:1.8rem}\n.certs li{padding:.5rem .95rem;border-radius:99px;font:600 .82rem/1 var(--font-display);color:var(--primary-ink);background:rgb(var(--glow-rgb)/.09);border:1px solid rgb(var(--glow-rgb)/.28)}\n.course .btn{max-width:100%;white-space:normal;text-align:center;padding-block:.9rem;height:auto}\n.sec--brigadas{overflow:hidden}\n.sec--brigadas::before{content:\"\";position:absolute;inset:0;background:radial-gradient(60% 50% at 85% 10%,rgb(var(--glow-rgb)/.22),transparent 70%),radial-gradient(50% 40% at 5% 90%,rgb(var(--glow2-rgb)/.14),transparent 70%);pointer-events:none}\n.sec--brigadas .container{position:relative}\n@media(min-width:860px){.brig{grid-template-columns:1fr 1.15fr;align-items:start}.pillars ul{grid-template-columns:1fr 1fr}.course{grid-template-columns:.85fr 1.15fr}.course--rev{grid-template-columns:1.15fr .85fr}.course--rev .course__media{order:2}.course__media{min-height:100%}.temario{grid-template-columns:1fr 1fr}}\n"
+}
